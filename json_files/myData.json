@@ -8,13 +8,13 @@
         "head": "Contact",
         "data": [
             {
-                "Phone": "+xxx-xxxxxxxxxx"
+                "Phone": "+962-787189817"
             },
             {
-                "Email": "example@example.com"
+                "Email": "alaasmadi1010@gmail.com"
             },
             {
-                "Address": "Country / City"
+                "Address": "Jordan / Amman"
             }
         ]
     },
@@ -26,20 +26,44 @@
         "head": "Experiance",
         "data": [
             {
-                "Position": "First Position",
-                "Company": "First Company",
+                "Position": "Full Stack Developer Trainee",
+                "Company": "LTUC-Abdul Aziz Al Ghurair School of Advanced Computing",
                 "StartDate": "Jan 2020",
                 "EndDate": "Jan 2021",
-                "TechnichalSkills": "First Position Skills",
-                "Description": "First position Description"
+                "TechnichalSkills": "Learned building Full Stack Applications using",
+                "Description": "* 201 level - Used HTML, CSS, and basic JavaScript to create interactive web pages \n\n * 301 level - Learned the common core of software development and fundamentals, including MVC architecture, object-oriented and functional programming, and computer science fundamentals. Additionally learned how to create and launch web apps in HTML, CSS, and JavaScript, with the help of third-party APIs and libraries \n\n * 401 level - Built full-stack web applications with server-side Node.Js and modern, client-side, front end libraries and frameworks, including React, also I learned data structures and algorithms, professional software development techniques, and established industry best practicess"
             },
             {
-                "Position": "Second Position",
-                "Company": "Second Company",
-                "StartDate": "Jan 2020",
-                "EndDate": "Jan 2021",
-                "TechnichalSkills": "Second Position Skills",
-                "Description": "Second position Description"
+                "Position": "CSA - Customer Service Agent",
+                "Company": "Extencya",
+                "StartDate": "Nov 2020",
+                "EndDate": "Feb 2021",
+                "TechnichalSkills": "Build communication skills",
+                "Description": "Help customers with complaints and questions, give customers information about products and services, take orders, and process returns. By helping customers understand the product and answering questions about their reservations"
+            },
+            {
+                "Position": "Surveying Training",
+                "Company": "Surveyor_Ali Zghol",
+                "StartDate": "Nov 2019",
+                "EndDate": "Feb 2020",
+                "TechnichalSkills": "Build Problem solving skills",
+                "Description": "Surveyors, also known as geomatics/land surveyors, perform mathematical calculations using specialized equipment in order to measure, mark, and delineate the boundaries of land for the public, government, or private development. They calculate the dimensions, elevations, shapes, and contours of sites"
+            },
+            {
+                "Position": "Surveyor",
+                "Company": "Jordanian Ministry of Public Works",
+                "StartDate": "May 2019",
+                "EndDate": "Nov 2019",
+                "TechnichalSkills": "Build Probem Solving and communication skills",
+                "Description": "Help customers with complaints and questions, give customers information about products and services, take orders, and process returns. By helping customers understand the product and answering questions about their reservations"
+            },
+            {
+                "Position": "Accountant in a Supermarket",
+                "Company": "Castle Alban",
+                "StartDate": "May 2017",
+                "EndDate": "May 2018",
+                "TechnichalSkills": "Build Comunication skills",
+                "Description": "Ensuring the accuracy of financial documents, as well as my compliance with relevant laws and regulations. Preparing and maintaining important financial reports."
             }
         ]
     },
@@ -47,20 +71,20 @@
         "head": "Education",
         "data": [
             {
-                "Degree": " First Degree ",
-                "School": "First University",
-                "StartDate": "Jan 2015",
-                "EndDate": "Jan 2020",
-                "TechnichalSkills": "First Degree Skills",
-                "Description": "First Degree Description"
+                "Degree": "Bachelor of Survey & Geomatics",
+                "School": "Al-Balqa Applied University",
+                "StartDate": "Sep 2015",
+                "EndDate": "Jul 2020",
+                "TechnichalSkills": "",
+                "Description": "GAP : Very Good"
             },
             {
-                "Degree": " Second Degree ",
-                "School": "Second University",
-                "StartDate": "Jan 2015",
-                "EndDate": "Jan 2020",
-                "TechnichalSkills": "Second Degree Skills",
-                "Description": "Second Degree Description"
+                "Degree": "Software Development ScholarShip",
+                "School": "LTUC-Abdul Aziz Al Ghurair School of Advanced Computing",
+                "StartDate": "Apr 2021",
+                "EndDate": "Oct 2021",
+                "TechnichalSkills": "Training in Active Learning & New Technologies & Sharing Knowledge.",
+                "Description": "- Training Soft Skills & Communication Skills & UX/UI Design & Searching Skills & Digital Transformation & Design Thinking & Agility\n\n- Using in (GitHub, Ubuntu Linux).\n\n- Applying Project-Based Learning by implementing 10 projects during the training period"
             }
         ]
     },
@@ -68,16 +92,40 @@
         "head": "Projects",
         "data": [
             {
-                "Name": "Project 1",
-                "Image": "./assets/firstFlower.jpg",
-                "Link": "https://alaan-smadi.github.io/portfolio/",
-                "Description": "This is the Description for the first project as you see it will be shown once you hover ..."
+                "Name": "Genius-CV-Creator",
+                "Image": "./assets/genius.png",
+                "Link": "https://genius-cv-creator.netlify.app/",
+                "Description": " If you are searching about new position or you are fresh graduated person you have to build you resume or CV with professional design . So, and from this point I built this app and deploy it on Netlify "
             },
             {
-                "Name": "Project 2",
-                "Image": "./assets/secondFlower.jpg",
-                "Link": "https://alaan-smadi.github.io/portfolio/",
-                "Description": "This is the Description for the second project as you see it will be shown once you hover ..."
+                "Name": "UTM Projection Converter",
+                "Image": "./assets/UTM.png",
+                "Link": "https://play.google.com/store/apps/details?id=com.alaa.UTM_projection",
+                "Description": "It's a very great idea to make a connection between my educations in one project to have a beautiful result"
+            },
+            {
+                "Name": "Food Lovers",
+                "Image": "./assets/food.png",
+                "Link": "https://alaan-smadi.github.io/foodLovers/",
+                "Description": "Website I built for a restaurant to make reservation"
+            },
+            {
+                "Name": "Chat App",
+                "Image": "./assets/chat.png",
+                "Link": "https://gold-team-mid-project.herokuapp.com/",
+                "Description": "My team and I were working online so we built this website to make it easy to communicate between us during the work"
+            },
+            {
+                "Name": "Jo-Transports",
+                "Image": "./assets/jordan.png",
+                "Link": "https://jordan-black-iris.netlify.app/",
+                "Description": "It was final project for 301 level when we spent just one week to complete this level, my team and I decided that all of us love traveling . So, we built this web application using ReactJS to help people travel in Jordan"
+            },
+            {
+                "Name": "Gaza Support",
+                "Image": "./assets/gaza.png",
+                "Link": "https://supportgaza.github.io/donation/",
+                "Description": "My first project in a team, It was great experience with one of the best teams for ever. \n\n Help and assist our brothers is our golden gold "
             }
         ]
     },
@@ -85,17 +133,78 @@
         "head": "Skills",
         "data": [
             {
-                "skillName": "skill 100%",
+                "skillName": "HTML5",
                 "percentage": 100
             },
             {
-                "skillName": "skill 67%",
-                "percentage": 67
+                "skillName": "CSS3",
+                "percentage": 100
             },
             {
-                "skillName": "skill 35%",
-                "percentage": 35
+                "skillName": "ES5 | ES6",
+                "percentage": 100
+            },
+            {
+                "skillName": "ReactJS",
+                "percentage": 100
+            },
+            {
+                "skillName": "Bootstrap",
+                "percentage": 100
+            },
+            {
+                "skillName": "Linux / Ubuntu",
+                "percentage": 80
+            },
+            {
+                "skillName": "Trello",
+                "percentage": 95
+            },
+            {
+                "skillName": "GitHub",
+                "percentage": 95
+            },
+            {
+                "skillName": "ExpressJS",
+                "percentage": 80
+            },
+            {
+                "skillName": "NodeJS",
+                "percentage": 85
+            },
+            {
+                "skillName": "MongoDB",
+                "percentage": 85
+            },
+            {
+                "skillName": "PostgresSQL",
+                "percentage": 80
+            },
+            {
+                "skillName": "Postman",
+                "percentage": 100
+            },
+            {
+                "skillName": "Heuko",
+                "percentage": 100
+            },
+            {
+                "skillName": "Netlify",
+                "percentage": 100
+            },
+            {
+                "skillName": "VS Code",
+                "percentage": 100
+            },
+            {
+                "skillName": "PhotoShop",
+                "percentage": 75
+            },
+            {
+                "skillName": "Git",
+                "percentage": 80
             }
+
         ]
     }
 ]
