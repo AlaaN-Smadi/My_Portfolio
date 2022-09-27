@@ -4,6 +4,7 @@
 let my_Profile = document.getElementById("my_Profile"),
     contact_Me = document.getElementById("contact_Me"),
     experiance = document.getElementById("experiance"),
+    templates = document.getElementById("templates"),
     education = document.getElementById("education"),
     projects = document.getElementById("projects"),
     skills = document.getElementById("skills"),
@@ -196,6 +197,7 @@ myData.forEach(mainFeild => {
                 let rangeContainer = document.createElement("div");
                 rangeContainer.setAttribute('class', 'rangeContainer');
                 let range = document.createElement('div');
+                range.setAttribute('title', ski.skillName)
                 range.style.width = `${ski.percentage}%`;
                 range.setAttribute('class', 'range');
                 rangeContainer.appendChild(range);
@@ -259,6 +261,61 @@ myData.forEach(mainFeild => {
                 rightDivPro.appendChild(dataContainer)
             })
             projects.appendChild(rightDivPro)
+            break;
+        // templates part
+        case "Templates":
+            let leftDivSTemp = document.createElement("div");
+            let rightDivTemp = document.createElement("div");
+            rightDivTemp.setAttribute('class', 'projects_Container');
+            // Title 
+            let head_OF_Feilds_Temp = document.createElement("p");
+            head_OF_Feilds_Temp.textContent = "Templates"
+            head_OF_Feilds_Temp.setAttribute("class", "head_OF_Feilds");
+            leftDivSTemp.appendChild(head_OF_Feilds_Temp);
+            templates.appendChild(leftDivSTemp)
+            // Data 
+            mainFeild.data.forEach(temp => {
+                let dataContainer = document.createElement("div");
+                dataContainer.setAttribute("class", 'project_Card');
+
+                let projectFront = document.createElement('div');
+                projectFront.setAttribute('class', 'project_Front');
+                dataContainer.appendChild(projectFront);
+
+                let projectBack = document.createElement('div');
+                projectBack.setAttribute('class', 'project_BackGround');
+                dataContainer.appendChild(projectBack);
+
+                // projects
+                let project_ToBeRendered = document.createElement("p");
+                project_ToBeRendered.setAttribute("class", "company");
+                project_ToBeRendered.textContent = temp.Name;
+
+                let myProjectImage = document.createElement('img');
+                myProjectImage.setAttribute('alt', 'Project_Img');
+                myProjectImage.setAttribute('class', 'Project_Img');
+                myProjectImage.setAttribute('src', `${temp.Image}`);
+
+                let projectLink_ToBeRendered = document.createElement("p");
+                projectLink_ToBeRendered.setAttribute("class", "Pro-Link");
+                projectLink_ToBeRendered.textContent = "🔗 Open link";
+
+                let projectDesc_ToBeRendered = document.createElement("p");
+                projectDesc_ToBeRendered.setAttribute("class", "Pro-Desc");
+                projectDesc_ToBeRendered.textContent = temp.Description;
+
+                projectFront.appendChild(project_ToBeRendered);
+                projectFront.appendChild(myProjectImage);
+                projectFront.appendChild(projectLink_ToBeRendered);
+                projectFront.appendChild(projectDesc_ToBeRendered);
+
+
+                dataContainer.addEventListener('click', function () {
+                    location.href = temp.Link;
+                })
+                rightDivTemp.appendChild(dataContainer)
+            })
+            templates.appendChild(rightDivTemp)
             break;
         // contact info part
         case "Contact":

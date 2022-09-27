@@ -11,7 +11,7 @@
                 "Phone": "+962-787189817"
             },
             {
-                "Email": "alaasmadi1010@gmail.com"
+                "Email": "alaa.smadi1997@gmail.com"
             },
             {
                 "Address": "Jordan / Amman"
@@ -20,16 +20,32 @@
     },
     {
         "head": "Profile",
-        "data": "I am 24 years old, single Jordanian who is social , ambitious and result oriented . I am ready to face challenges to build great accomplishments in my career .I am hard worker, dynamic and organized person with ability to learn and adopt any environment to achieve my goals , Born in a small town in Northern Jordan, where I study to be a full stack developer for Instant Domain Search, alongside my many ongoing projects. I love to create and tend to keep a few too many projects on the go at a time. I love to travel . I dream of being able to take my work with me while travelling the world. "
+        "data": "I am working as Full Stack Developer Buildfire team at Madain Corp Company \nI have 4 React projects, and I worked as Software Developer for 2 years with JavaScript, NodeJS, PostgresSQL and Linux ‘UBUNTU’ system, and all of my knowledge came from search and work without university degree in this field"
     },
     {
         "head": "Experiance",
         "data": [
             {
+                "Position": "Junior Software Developer",
+                "Company": "Madain Corp",
+                "StartDate": "Apr 2022",
+                "EndDate": "Present",
+                "TechnichalSkills": "ReactJS, Redux, Bootstrap, Linux/Ubuntu, Trello, VS Code, HTML, CSS, ES5 | ES6",
+                "Description": "I am working at Madain Corp Company with the following tasks: \n * Build web applications with web development best practices \n * Transform app designs into front-end code with HTML, CSS, and JavaScript \n * Gather and refine specifications and requirements based on technical requirements or UX design \n * Debug errors, troubleshoot issues, and perform routine performance optimizations \n * Write high-quality, scalable, and reusable code \n * Create and analyze reliable and secure backend functionality \n * develop and optimize server-side data, including database creation and management and debugging"
+            },
+            {
+                "Position": "Full Stack Freelance Developer",
+                "Company": "Self -Employed",
+                "StartDate": "Sep 2021",
+                "EndDate": "Present",
+                "TechnichalSkills": "ReactJS, Bootstrap, Linux/Ubuntu, Redux, Trello, VS Code, HTML, CSS, ES5 | ES6, NodeJS, ExpressJS, Bootstrap, PostgresSQL, Git, GitHub,",
+                "Description": "I am working as Freelance Programmer with the following tasks: \n * Design client-side and server-side architecture \n * Build the front-end of applications through appealing visual design \n * Develop and manage well-functioning databases and applications \n * Write effective APIs \n * Test software to ensure responsiveness and efficiency \n * Troubleshoot, debug and upgrade software \n * Build features and applications with a mobile responsive design \n * Write technical documentation \n * Work with data scientists and analysts to improve software"
+            },
+            {
                 "Position": "Full Stack Developer Trainee",
                 "Company": "LTUC-Abdul Aziz Al Ghurair School of Advanced Computing",
-                "StartDate": "Jan 2020",
-                "EndDate": "Jan 2021",
+                "StartDate": "Apr 2021",
+                "EndDate": "Oct 2021",
                 "TechnichalSkills": "Learned building Full Stack Applications using",
                 "Description": "* 201 level - Used HTML, CSS, and basic JavaScript to create interactive web pages \n\n * 301 level - Learned the common core of software development and fundamentals, including MVC architecture, object-oriented and functional programming, and computer science fundamentals. Additionally learned how to create and launch web apps in HTML, CSS, and JavaScript, with the help of third-party APIs and libraries \n\n * 401 level - Built full-stack web applications with server-side Node.Js and modern, client-side, front end libraries and frameworks, including React, also I learned data structures and algorithms, professional software development techniques, and established industry best practicess"
             },
@@ -40,30 +56,6 @@
                 "EndDate": "Feb 2021",
                 "TechnichalSkills": "Build communication skills",
                 "Description": "Help customers with complaints and questions, give customers information about products and services, take orders, and process returns. By helping customers understand the product and answering questions about their reservations"
-            },
-            {
-                "Position": "Surveying Training",
-                "Company": "Surveyor_Ali Zghol",
-                "StartDate": "Nov 2019",
-                "EndDate": "Feb 2020",
-                "TechnichalSkills": "Build Problem solving skills",
-                "Description": "Surveyors, also known as geomatics/land surveyors, perform mathematical calculations using specialized equipment in order to measure, mark, and delineate the boundaries of land for the public, government, or private development. They calculate the dimensions, elevations, shapes, and contours of sites"
-            },
-            {
-                "Position": "Surveyor",
-                "Company": "Jordanian Ministry of Public Works",
-                "StartDate": "May 2019",
-                "EndDate": "Nov 2019",
-                "TechnichalSkills": "Build Probem Solving and communication skills",
-                "Description": "Help customers with complaints and questions, give customers information about products and services, take orders, and process returns. By helping customers understand the product and answering questions about their reservations"
-            },
-            {
-                "Position": "Accountant in a Supermarket",
-                "Company": "Castle Alban",
-                "StartDate": "May 2017",
-                "EndDate": "May 2018",
-                "TechnichalSkills": "Build Comunication skills",
-                "Description": "Ensuring the accuracy of financial documents, as well as my compliance with relevant laws and regulations. Preparing and maintaining important financial reports."
             }
         ]
     },
@@ -71,26 +63,38 @@
         "head": "Education",
         "data": [
             {
-                "Degree": "Bachelor of Survey & Geomatics",
-                "School": "Al-Balqa Applied University",
-                "StartDate": "Sep 2015",
-                "EndDate": "Jul 2020",
-                "TechnichalSkills": "",
-                "Description": "GAP : Very Good"
-            },
-            {
                 "Degree": "Software Development ScholarShip",
                 "School": "LTUC-Abdul Aziz Al Ghurair School of Advanced Computing",
                 "StartDate": "Apr 2021",
                 "EndDate": "Oct 2021",
                 "TechnichalSkills": "Training in Active Learning & New Technologies & Sharing Knowledge.",
                 "Description": "- Training Soft Skills & Communication Skills & UX/UI Design & Searching Skills & Digital Transformation & Design Thinking & Agility\n\n- Using in (GitHub, Ubuntu Linux).\n\n- Applying Project-Based Learning by implementing 10 projects during the training period"
+            },
+            {
+                "Degree": "Bachelor of Survey & Geomatics",
+                "School": "Al-Balqa Applied University",
+                "StartDate": "Sep 2015",
+                "EndDate": "Jul 2020",
+                "TechnichalSkills": "",
+                "Description": "GAP : Very Good"
             }
         ]
     },
     {
         "head": "Projects",
         "data": [
+            {
+                "Name": "Farm Management",
+                "Image": "./assets/farm.jpg",
+                "Link": "https://63330be35d24814b46271823--happy-farm-management.netlify.app/",
+                "Description": " A Farm System to manage everything in the farm (Calving, Give Vaccines, Services, Invoices, Feeds and milking management) "
+            },
+            {
+                "Name": "Hotel Management",
+                "Image": "./assets/hotel.jpg",
+                "Link": "https://hotel-last-version.netlify.app/",
+                "Description": " A Hotel System to manage everything in the hotel (Booking, Rooms, Services, Invoices, Contracts and other Financial Management "
+            },
             {
                 "Name": "Genius-CV-Creator",
                 "Image": "./assets/genius.png",
@@ -102,18 +106,17 @@
                 "Image": "./assets/UTM.png",
                 "Link": "https://play.google.com/store/apps/details?id=com.alaa.UTM_projection",
                 "Description": "It's a very great idea to make a connection between my educations in one project to have a beautiful result"
-            },
+            }
+        ]
+    },
+    {
+        "head": "Templates",
+        "data": [
             {
                 "Name": "Food Lovers",
                 "Image": "./assets/food.png",
                 "Link": "https://alaan-smadi.github.io/foodLovers/",
                 "Description": "Website I built for a restaurant to make reservation"
-            },
-            {
-                "Name": "Chat App",
-                "Image": "./assets/chat.png",
-                "Link": "https://gold-team-mid-project.herokuapp.com/",
-                "Description": "My team and I were working online so we built this website to make it easy to communicate between us during the work"
             },
             {
                 "Name": "Jo-Transports",
@@ -142,11 +145,23 @@
             },
             {
                 "skillName": "ES5 | ES6",
-                "percentage": 100
+                "percentage": 90
             },
             {
                 "skillName": "ReactJS",
-                "percentage": 100
+                "percentage": 85
+            },
+            {
+                "skillName": "NodeJS",
+                "percentage": 85
+            },
+            {
+                "skillName": "ExpressJS",
+                "percentage": 80
+            },
+            {
+                "skillName": "PostgresSQL",
+                "percentage": 80
             },
             {
                 "skillName": "Bootstrap",
@@ -165,22 +180,6 @@
                 "percentage": 95
             },
             {
-                "skillName": "ExpressJS",
-                "percentage": 80
-            },
-            {
-                "skillName": "NodeJS",
-                "percentage": 85
-            },
-            {
-                "skillName": "MongoDB",
-                "percentage": 85
-            },
-            {
-                "skillName": "PostgresSQL",
-                "percentage": 80
-            },
-            {
                 "skillName": "Postman",
                 "percentage": 100
             },
@@ -193,18 +192,9 @@
                 "percentage": 100
             },
             {
-                "skillName": "VS Code",
-                "percentage": 100
-            },
-            {
-                "skillName": "PhotoShop",
-                "percentage": 75
-            },
-            {
                 "skillName": "Git",
                 "percentage": 80
             }
-
         ]
     }
 ]

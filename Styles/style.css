@@ -101,7 +101,7 @@ header{
     text-align: center;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    height: 200px;
+    height: 135px;
     background: rgba(43, 77, 189, 0.377);
 }
 .info_P{
@@ -289,10 +289,6 @@ footer{
     .header_Name{
         font-size: x-large;
     }
-    .my_Profile{
-        height: 300px;
-        padding: 5%;
-    }
     .img_Container {
         width: 150px;
     }
@@ -301,10 +297,9 @@ footer{
 @media screen and (max-width:700px){
     
     .my_Profile{
-        height: 325px;
+        height: 180px;
         padding: 5%;
         font-size: medium;
-        
     }
     .personal_Name_Container{
         top: 30px;
