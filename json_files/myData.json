@@ -92,7 +92,7 @@
             {
                 "Name": "Hotel Management",
                 "Image": "./assets/hotel.jpg",
-                "Link": "https://hotel-last-version.netlify.app/",
+                "Link": "https://spiffy-empanada-3cb8c2.netlify.app/",
                 "Description": " A Hotel System to manage everything in the hotel (Booking, Rooms, Services, Invoices, Contracts and other Financial Management "
             },
             {
