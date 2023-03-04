@@ -20,7 +20,7 @@
     },
     {
         "head": "Profile",
-        "data": "I am working as a Full Stack Developer in Buildfire team at Madain Corp Company. I have 4 React projects, and I worked as a Software Developer for 2 years with JavaScript, NodeJS, PostgresSQL, ReactJS and Linux ‘UBUNTU’ system, and all of my knowledge came from search, work and self-learning without university degree in this field."
+        "data": "I am a full stack engineer with two years of professional experience and a passion for developing innovative software solutions. Currently, I am working at Madaincorp where I have gained valuable skills in building robust and scalable applications. In addition to my professional work, I have completed four successful freelance projects, showcasing my ability to deliver high-quality code and meet client needs."
     },
     {
         "head": "Experiance",
@@ -86,19 +86,19 @@
             {
                 "Name": "Farm Management",
                 "Image": "./assets/farm.jpg",
-                "Link": "https://63330be35d24814b46271823--happy-farm-management.netlify.app/",
+                "Link": "https://farm-management-front.onrender.com/",
                 "Description": " A Farm System to manage everything in the farm (Calving, Give Vaccines, Services, Invoices, Feeds and milking management) "
             },
             {
                 "Name": "Hotel Management",
                 "Image": "./assets/hotel.jpg",
-                "Link": "https://spiffy-empanada-3cb8c2.netlify.app/",
+                "Link": "https://hotel-front.onrender.com/",
                 "Description": " A Hotel System to manage everything in the hotel (Booking, Rooms, Services, Invoices, Contracts and other Financial Management "
             },
             {
-                "Name": "Genius-CV-Creator",
+                "Name": "Professional-CV -Creator",
                 "Image": "./assets/genius.png",
-                "Link": "https://genius-cv-creator.netlify.app/",
+                "Link": "https://prfessionnalcv.com/",
                 "Description": " If you are searching about new position or you are fresh graduated person you have to build you resume or CV with professional design . So, and from this point I built this app and deploy it on Netlify "
             },
             {
