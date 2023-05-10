@@ -21,8 +21,12 @@ header{
 }
 
 .back_header_img{
+    background-image: url('/assets/sky_Background.jpg');
     width: 100%;
-    min-height: 550px;
+    min-height: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .personal_Name_Container{
@@ -102,7 +106,7 @@ header{
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     height: 135px;
-    background: rgba(43, 77, 189, 0.377);
+    background: rgb(35 59 134 / 63%);
 }
 .info_P{
     line-height: 20px;
