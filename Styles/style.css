@@ -23,7 +23,7 @@ header{
 .back_header_img{
     background-image: url('/assets/sky_Background.jpg');
     width: 100%;
-    min-height: 50vw;
+    height: 50vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -295,6 +295,9 @@ footer{
     }
     .img_Container {
         width: 150px;
+    }
+    .back_header_img{
+        height: 100vw;
     }
 }
 
