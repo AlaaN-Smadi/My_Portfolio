@@ -26,11 +26,11 @@
         "head": "Experiance",
         "data": [
             {
-                "Position": "Junior Software Developer",
+                "Position": "Software Engineer",
                 "Company": "Madain Corp",
                 "StartDate": "Apr 2022",
                 "EndDate": "Present",
-                "TechnichalSkills": "ReactJS, Redux, Bootstrap, Linux/Ubuntu, Trello, VS Code, HTML, CSS, ES5 | ES6",
+                "TechnichalSkills": "ReactJS, Redux, Bootstrap, HTML, CSS, ES5 | ES6, NodeJS, ExpressJS, Jira, PostgresSQL, MongoDB, Git, GitHub",
                 "Description": "I am working at Madain Corp Company with the following tasks: \n * Build web applications with web development best practices \n * Transform app designs into front-end code with HTML, CSS, and JavaScript \n * Gather and refine specifications and requirements based on technical requirements or UX design \n * Debug errors, troubleshoot issues, and perform routine performance optimizations \n * Write high-quality, scalable, and reusable code \n * Create and analyze reliable and secure backend functionality \n * develop and optimize server-side data, including database creation and management and debugging"
             },
             {
@@ -38,7 +38,7 @@
                 "Company": "Self -Employed",
                 "StartDate": "Sep 2021",
                 "EndDate": "Present",
-                "TechnichalSkills": "ReactJS, Bootstrap, Linux/Ubuntu, Redux, Trello, VS Code, HTML, CSS, ES5 | ES6, NodeJS, ExpressJS, Bootstrap, PostgresSQL, Git, GitHub,",
+                "TechnichalSkills": "ReactJS, Bootstrap, Redux, Trello, VS Code, HTML, CSS, ES5 | ES6, NodeJS, ExpressJS, Bootstrap, PostgresSQL, MongoDB, Git, GitHub,",
                 "Description": "I am working as Freelance Programmer with the following tasks: \n * Design client-side and server-side architecture \n * Build the front-end of applications through appealing visual design \n * Develop and manage well-functioning databases and applications \n * Write effective APIs \n * Test software to ensure responsiveness and efficiency \n * Troubleshoot, debug and upgrade software \n * Build features and applications with a mobile responsive design \n * Write technical documentation \n * Work with data scientists and analysts to improve software"
             },
             {
@@ -63,7 +63,7 @@
         "head": "Education",
         "data": [
             {
-                "Degree": "Software Development ScholarShip",
+                "Degree": "Software Development Diploma",
                 "School": "LTUC-Abdul Aziz Al Ghurair School of Advanced Computing",
                 "StartDate": "Apr 2021",
                 "EndDate": "Oct 2021",
@@ -157,43 +157,27 @@
             },
             {
                 "skillName": "ExpressJS",
-                "percentage": 80
+                "percentage": 87
             },
             {
                 "skillName": "PostgresSQL",
-                "percentage": 80
+                "percentage": 85
+            },
+            {
+                "skillName": "MongoDB",
+                "percentage": 84
             },
             {
                 "skillName": "Bootstrap",
                 "percentage": 100
             },
             {
-                "skillName": "Linux / Ubuntu",
-                "percentage": 80
-            },
-            {
-                "skillName": "Trello",
-                "percentage": 95
-            },
-            {
                 "skillName": "GitHub",
                 "percentage": 95
             },
             {
-                "skillName": "Postman",
-                "percentage": 100
-            },
-            {
-                "skillName": "Heuko",
-                "percentage": 100
-            },
-            {
-                "skillName": "Netlify",
-                "percentage": 100
-            },
-            {
                 "skillName": "Git",
-                "percentage": 80
+                "percentage": 89
             }
         ]
     }
