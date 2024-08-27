@@ -84,6 +84,12 @@
         "head": "Projects",
         "data": [
             {
+                "Name": "Tawseleh Jo",
+                "Image": "./assets/tawseleh.png",
+                "Link": "https://play.google.com/store/apps/details?id=com.tawselehjo.app",
+                "Description": "'Tawseleh Jo' is the application that combines comfort and ease in navigating and booking trips, whether you are planning a pre-scheduled trip or need an immediate trip."
+            },
+            {
                 "Name": "Farm Management",
                 "Image": "./assets/farm.jpg",
                 "Link": "https://farm-management-front.onrender.com/",
@@ -96,16 +102,10 @@
                 "Description": " A Hotel System to manage everything in the hotel (Booking, Rooms, Services, Invoices, Contracts and other Financial Management "
             },
             {
-                "Name": "Professional-CV -Creator",
-                "Image": "./assets/genius.png",
-                "Link": "https://prfessionnalcv.com/",
-                "Description": " If you are searching about new position or you are fresh graduated person you have to build you resume or CV with professional design . So, and from this point I built this app and deploy it on Netlify "
-            },
-            {
-                "Name": "UTM Projection Converter",
-                "Image": "./assets/UTM.png",
-                "Link": "https://play.google.com/store/apps/details?id=com.alaa.UTM_projection",
-                "Description": "It's a very great idea to make a connection between my educations in one project to have a beautiful result"
+                "Name": "Surveying BAU App",
+                "Image": "./assets/survey.png",
+                "Link": "https://play.google.com/store/apps/details?id=com.smad_Developer.SurveyBAU",
+                "Description": "If you are a surveying engineering student at BAU, this application is prepared for you. This is your comprehensive office and your path to success and excellence."
             }
         ]
     },

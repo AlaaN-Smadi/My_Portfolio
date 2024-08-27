@@ -326,3 +326,12 @@ footer{
     }
     
 }
+
+@media screen and (max-width:450px){
+    .back_header_img{
+        height: 150vw;
+    }
+    .my_Profile {
+        height: 200px;
+    }
+}
