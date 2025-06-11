@@ -27,11 +27,19 @@
         "data": [
             {
                 "Position": "Software Engineer",
+                "Company": "Buildfire Corp",
+                "StartDate": "Sep 2024",
+                "EndDate": "Present",
+                "TechnichalSkills": "ReactJS, Bootstrap, HTML, CSS, ES5 | ES6, NodeJS, ExpressJS, Jira, PostgresSQL, MongoDB, Git, GitHub",
+                "Description": "I am working at Buildfire Company with the following tasks: \n * Build web applications with web development best practices \n * Develop RESTful APIs using NodeJS “Express” \n * Integrate MongoDB, Firebase, and MySQL database \n * Gather and refine specifications based on technical requirements or UX design \n * Debug errors, troubleshoot issues, and perform routine performance optimizations"
+            },
+            {
+                "Position": "Software Engineer",
                 "Company": "Madain Corp",
                 "StartDate": "Apr 2022",
-                "EndDate": "Present",
+                "EndDate": "Sep 2024",
                 "TechnichalSkills": "ReactJS, Redux, Bootstrap, HTML, CSS, ES5 | ES6, NodeJS, ExpressJS, Jira, PostgresSQL, MongoDB, Git, GitHub",
-                "Description": "I am working at Madain Corp Company with the following tasks: \n * Build web applications with web development best practices \n * Transform app designs into front-end code with HTML, CSS, and JavaScript \n * Gather and refine specifications and requirements based on technical requirements or UX design \n * Debug errors, troubleshoot issues, and perform routine performance optimizations \n * Write high-quality, scalable, and reusable code \n * Create and analyze reliable and secure backend functionality \n * develop and optimize server-side data, including database creation and management and debugging"
+                "Description": "I am worked at Madain Corp Company with the following tasks: \n * Build web applications with web development best practices \n * Transform app designs into front-end code with HTML, CSS, and JavaScript \n * Gather and refine specifications and requirements based on technical requirements or UX design \n * Debug errors, troubleshoot issues, and perform routine performance optimizations \n * Write high-quality, scalable, and reusable code \n * Create and analyze reliable and secure backend functionality \n * develop and optimize server-side data, including database creation and management and debugging"
             },
             {
                 "Position": "Full Stack Freelance Developer",
@@ -40,22 +48,6 @@
                 "EndDate": "Present",
                 "TechnichalSkills": "ReactJS, Bootstrap, Redux, Trello, VS Code, HTML, CSS, ES5 | ES6, NodeJS, ExpressJS, Bootstrap, PostgresSQL, MongoDB, Git, GitHub,",
                 "Description": "I am working as Freelance Programmer with the following tasks: \n * Design client-side and server-side architecture \n * Build the front-end of applications through appealing visual design \n * Develop and manage well-functioning databases and applications \n * Write effective APIs \n * Test software to ensure responsiveness and efficiency \n * Troubleshoot, debug and upgrade software \n * Build features and applications with a mobile responsive design \n * Write technical documentation \n * Work with data scientists and analysts to improve software"
-            },
-            {
-                "Position": "Full Stack Developer Trainee",
-                "Company": "LTUC-Abdul Aziz Al Ghurair School of Advanced Computing",
-                "StartDate": "Apr 2021",
-                "EndDate": "Oct 2021",
-                "TechnichalSkills": "Learned building Full Stack Applications using",
-                "Description": "* 201 level - Used HTML, CSS, and basic JavaScript to create interactive web pages \n\n * 301 level - Learned the common core of software development and fundamentals, including MVC architecture, object-oriented and functional programming, and computer science fundamentals. Additionally learned how to create and launch web apps in HTML, CSS, and JavaScript, with the help of third-party APIs and libraries \n\n * 401 level - Built full-stack web applications with server-side Node.Js and modern, client-side, front end libraries and frameworks, including React, also I learned data structures and algorithms, professional software development techniques, and established industry best practicess"
-            },
-            {
-                "Position": "CSA - Customer Service Agent",
-                "Company": "Extencya",
-                "StartDate": "Nov 2020",
-                "EndDate": "Feb 2021",
-                "TechnichalSkills": "Build communication skills",
-                "Description": "Help customers with complaints and questions, give customers information about products and services, take orders, and process returns. By helping customers understand the product and answering questions about their reservations"
             }
         ]
     },
@@ -113,6 +105,12 @@
         "head": "Templates",
         "data": [
             {
+                "Name": "Portfolio",
+                "Image": "./assets/portfolio.jpg",
+                "Link": "https://alaan-smadi.github.io/Portfolio-Template/",
+                "Description": "Portfolio Website Template - Created a modern, responsive portfolio template using HTML, CSS, and JavaScript. The template showcases my skills, projects, and contact information in a visually appealing layout."
+            },
+            {
                 "Name": "Food Lovers",
                 "Image": "./assets/food.png",
                 "Link": "https://alaan-smadi.github.io/foodLovers/",
@@ -149,6 +147,10 @@
             },
             {
                 "skillName": "ReactJS",
+                "percentage": 89
+            },
+            {
+                "skillName": "NextJS",
                 "percentage": 85
             },
             {

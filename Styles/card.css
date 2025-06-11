@@ -17,7 +17,7 @@
     top: 5%;
     left: 6%;
     border-radius: 5px;
-    transition: 0.5s;
+    transition: 0.35s;
 }
 
 .project_Card:hover .project_BackGround{
@@ -25,7 +25,6 @@
     height: 111%;
     top: -5%;
     left: -6%;
-    transition: 0.5s;
 }
 
 .project_Front{
@@ -53,26 +52,26 @@
 .Pro-Desc{
     transition: 0.5s;
     display: none;
+    margin-top: 15px;
 }
 .project_Card:hover{
     cursor: pointer;
 }
 .project_Card:hover .Pro-Link{
-    transition: 0.5s;
     display: block;
 }
 .project_Card:hover .Pro-Desc{
-    transition: 0.5s;
     display: block;
 }
 .project_Card:hover .Project_Img{
-    transition: 0.5s;
     opacity: 0.7;
 }
 .Project_Img{
     width: 50%;
-    margin-right: 5%;
+    margin: auto;
+    display: block;
+    aspect-ratio: 1;
+    object-fit: cover;
     margin-top: 5px;
-    margin-left: 25%;
     border-radius: 5px;
 }

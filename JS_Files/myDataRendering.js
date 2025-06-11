@@ -58,17 +58,47 @@ readTextFile(link_Arr_JSON, 'links')
 
 
 // => Functionality <=
+function printNameWithHackEffect(container, text) {
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let animationFrame;
+    
+    const startTime = Date.now();
+    const duration = 1300; // 2 seconds
+    
+    function animate() {
+      const elapsed = Date.now() - startTime;
+      
+      if (elapsed < duration) {
+        let displayText = '';
+        for (let i = 0; i < text.length; i++) {
+          // Reveal correct character gradually
+          if (Math.random() < elapsed / duration) {
+            displayText += text[i];
+          } else {
+            displayText += chars[Math.floor(Math.random() * chars.length)];
+          }
+        }
+        container.textContent = displayText;
+        animationFrame = requestAnimationFrame(animate);
+      } else {
+        container.textContent = text; // Show actual text
+        cancelAnimationFrame(animationFrame);
+      }
+    }
+    
+    animate();
+}
 
-myData.forEach(mainFeild => {
-    switch (mainFeild.head) {
+myData.forEach(mainField => {
+    switch (mainField.head) {
         case "Personal":
-            personal_Name.textContent = mainFeild.Name;
-            personal_Job.textContent = mainFeild.Job
+            printNameWithHackEffect(personal_Name, mainField.Name)
+            printNameWithHackEffect(personal_Job, mainField.Job)
             break;
         // profile part
         case "Profile":
             let profile_P = document.createElement("p");
-            profile_P.textContent = mainFeild.data;
+            profile_P.textContent = mainField.data;
             profile_P.setAttribute("class", "info_P");
             my_Profile.appendChild(profile_P);
             break;
@@ -84,7 +114,7 @@ myData.forEach(mainFeild => {
             leftDivEdu.appendChild(head_OF_FeildsEdu);
             education.appendChild(leftDivEdu)
             // Data
-            mainFeild.data.forEach(eduData => {
+            mainField.data.forEach(eduData => {
                 let dataContainer = document.createElement("div");
                 dataContainer.setAttribute("class", 'data_Container');
                 // university
@@ -135,7 +165,7 @@ myData.forEach(mainFeild => {
             leftDivExp.appendChild(head_OF_Feilds_Exp);
             experiance.appendChild(leftDivExp)
             // Data
-            mainFeild.data.forEach(expData => {
+            mainField.data.forEach(expData => {
                 let dataContainer = document.createElement("div");
                 dataContainer.setAttribute("class", 'data_Container');
                 // company
@@ -185,7 +215,7 @@ myData.forEach(mainFeild => {
             leftDivSkill.appendChild(head_OF_Feilds_skill);
             skills.appendChild(leftDivSkill)
             // Data 
-            mainFeild.data.forEach(ski => {
+            mainField.data.forEach(ski => {
                 let dataContainer = document.createElement("div");
                 dataContainer.setAttribute("class", 'data_Container');
                 // skill
@@ -219,7 +249,7 @@ myData.forEach(mainFeild => {
             leftDivSPro.appendChild(head_OF_Feilds_Pro);
             projects.appendChild(leftDivSPro)
             // Data 
-            mainFeild.data.forEach(pro => {
+            mainField.data.forEach(pro => {
                 let dataContainer = document.createElement("div");
                 dataContainer.setAttribute("class", 'project_Card');
 
@@ -274,7 +304,7 @@ myData.forEach(mainFeild => {
             leftDivSTemp.appendChild(head_OF_Feilds_Temp);
             templates.appendChild(leftDivSTemp)
             // Data 
-            mainFeild.data.forEach(temp => {
+            mainField.data.forEach(temp => {
                 let dataContainer = document.createElement("div");
                 dataContainer.setAttribute("class", 'project_Card');
 
@@ -324,7 +354,7 @@ myData.forEach(mainFeild => {
             headOfContact.setAttribute('class', 'head_OF_Feilds');
             contact_Me.appendChild(headOfContact);
             // render Contact Infos
-            mainFeild.data.forEach(call => {
+            mainField.data.forEach(call => {
                 let callElement = document.createElement('p');
                 let key = `${Object.keys(call)[0]}`;
                 let val = `${Object.values(call)[0]}`;
